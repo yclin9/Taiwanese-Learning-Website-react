@@ -1,0 +1,5 @@
+[
+  {"num":"I", "tailo": "Ūn-bó", "taiwanese": "韻母", "english": "Vowels"},
+  {"num":"II", "tailo": "Siann-bóo", "taiwanese": "聲母", "english": "Consonants"},
+  {"num":"III", "tailo": "Siann-tiāu", "taiwanese": "聲調", "english": "Tones"}
+]
