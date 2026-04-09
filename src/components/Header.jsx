@@ -9,17 +9,17 @@ function Header({ setPage, setNum }) {
                 <button onClick={() => {
                     setPage("tailo");
                     setNum(0);
-                }}>
+                }} style={{ cursor: "pointer"}}>
                         Learn Tâi-lô
                 </button>
                 <button onClick={() => {setPage("lessons");
                     setNum(0);
-                }}>
+                }} style={{ cursor: "pointer"}}>
                         Lessons
                 </button>
                 <button onClick={() => {setPage("articles");
                     setNum(0);
-                }}>
+                }} style={{ cursor: "pointer"}}>
                         Articles
                 </button>
             </nav>

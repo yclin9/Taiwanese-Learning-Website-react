@@ -1,0 +1,8 @@
+[
+  { "letter": "a", "example": "阿兄 a-hiann", "translation": "elder brother", "audio": "audio/tailo/a.m4a" },
+  { "letter": "e", "example": "鞋仔 ê-á", "translation": "shoe", "audio": "audio/tailo/e.m4a" },
+  { "letter": "i", "example": "醫生 i-sing", "translation": "doctor", "audio": "audio/tailo/i.m4a" },
+  { "letter": "o", "example": "蚵仔 ô-á", "translation": "oyster", "audio": "audio/tailo/o.m4a" },
+  { "letter": "oo", "example": "芋仔 ōo-á", "translation": "taro", "audio": "audio/tailo/oo.m4a" },
+  { "letter": "u", "example": "有 ū", "translation": "to have, to be", "audio": "audio/tailo/u.m4a" }
+]

@@ -105,6 +105,8 @@ a {
 .topic {
   text-align: center;
   margin-bottom: 40px;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 .topic h1 {
@@ -184,8 +186,15 @@ a {
   margin-bottom: 12px;
 }
 
+.sidebar button {
+  color: var(--text-muted);
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
 .sidebar button:hover {
-  color: #2f6f6a;
+  color: var(--text-dark);
 }
 
 /* Main-part */
@@ -203,6 +212,7 @@ a {
 .content {
   max-width: 1200px;
   font-size: 1.15rem;
+  margin-left: 15%;
 }
 
 .content div {
@@ -221,6 +231,7 @@ a {
   margin: 0 auto;
   margin-right: 0;
   margin-left: 0;
+  align-items: center;
 }
 
 /* Footer */
@@ -332,7 +343,8 @@ footer {
 /* Table */
 
 .table {
-  width: 100%;
+  /* margin-left: 35%;
+  margin-right: 10%; */
   border-collapse: collapse;
   margin: 30px 0;
   background: #ffffff;

@@ -1,0 +1,12 @@
+[
+  { "letter": "ai", "example": "愛情 ài-tsîng", "translation": "love", "audio": "audio/tailo/ai.m4a" },
+  { "letter": "au", "example": "土豆 thôo-tāu", "translation": "peanut", "audio": "audio/tailo/au.m4a" },
+  { "letter": "ia", "example": "社會 siā-huē", "translation": "society", "audio": "audio/tailo/ia.m4a" },
+  { "letter": "io", "example": "腰子 io-tsí", "translation": "kidney", "audio": "audio/tailo/io.m4a" },
+  { "letter": "iu", "example": "憂愁 iu-tshiû", "translation": "sad, upset", "audio": "audio/tailo/iu.m4a" },
+  { "letter": "ua", "example": "大 tuā", "translation": "big", "audio": "audio/tailo/ua.m4a" },
+  { "letter": "ue", "example": "講話 kóng-uē", "translation": "to talk", "audio": "audio/tailo/ue.m4a" },
+  { "letter": "ui", "example": "媠 suí", "translation": "pretty", "audio": "audio/tailo/ui.m4a" },
+  { "letter": "iau", "example": "囂俳 hiau-pai", "translation": "arrogant", "audio": "audio/tailo/iau.m4a" },
+  { "letter": "uai", "example": "懷疑 huâi-gî", "translation": "to doubt", "audio": "audio/tailo/uai.m4a" }
+]

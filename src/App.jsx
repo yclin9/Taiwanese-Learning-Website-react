@@ -6,17 +6,15 @@ import Footer from "./components/Footer";
 import Topic from "./components/Topic";
 import List from "./components/List";
 import Sidebar from "./components/Sidebar";
-import LessonText from "./components/LessonText";
+import Content from "./components/Content";
 import VocabTable from "./components/VocabTable";
-import Grammar from "./components/Grammar";
 import Quiz from "./components/Quiz";
-import Tailo from "./components/Tailo";
-import Article from "./components/Article";
+import Tailo from "./components/Tailo"
 
 function App() {
   const [page, setPage] = useState("home");
   const [num, setNum] = useState(0);
-  const [section, setSection] = useState("text");
+  const [sectionType, setSection] = useState("text");
 
   useEffect(() => {
     setNum(0);
@@ -36,27 +34,29 @@ function App() {
           {num === 0 && (
             <List currPage={page} setNum={setNum} />
           )}
-          
-          {(num > 0 && page !== "articles") && (
-            <Sidebar />
-          )}
-          
-          {(num > 0 && page === "lessons") && (
-            <>
-              {section === "text" && <LessonText />}
-              {section === "vocabulary" && <VocabTable />}
-              {section === "grammar" && <Grammar />}
-              {section === "quiz" && <Quiz />}
-            </>
-          )}
-          
-          {(num > 0 && page === "tailo") && (
-            <Tailo />
-          )}
-          
-          {(num > 0 && page === "articles") && (
-            <Article />
-          )}
+
+          <main className="layout">
+            {(num > 0 && page !== "articles") && (
+              <Sidebar currPage={page} num={num} setNum={setNum} setSection={setSection} />
+            )}
+            
+            {(num > 0 && page === "lessons") && (
+              <>
+                {sectionType === "text" && <Content contentType={"lessons_text"} num={num} />}
+                {sectionType === "vocabulary" && <VocabTable num={num} />}
+                {sectionType === "grammar" && <Content contentType={"lessons_grammar"} num={num} />}
+                {sectionType === "quiz" && <Quiz num={num} />}
+              </>
+            )}
+            
+            {(num > 0 && page === "tailo") && (
+              <Tailo num={num} />
+            )}
+            
+            {(num > 0 && page === "articles") && (
+              <Content contentType={"articles"} num={num} />
+            )}
+          </main>
         </>
       )}
       

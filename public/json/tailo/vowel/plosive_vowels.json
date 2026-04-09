@@ -1,0 +1,13 @@
+[
+  { "letter": "-h", "example": "桌仔 toh-á", "translation": "table", "audio": "audio/tailo/-h1.m4a" },
+  { "letter": "", "example": "想欲 siūnn-beh", "translation": "to want to", "audio": "audio/tailo/-h2.m4a" },
+  { "letter": "", "example": "藥仔 io̍h-á", "translation": "medicine", "audio": "audio/tailo/-h3.m4a" },
+  { "letter": "-k", "example": "新竹 sin-tik", "translation": "Hsinchu (a county in Taiwan)", "audio": "audio/tailo/-k1.m4a" },
+  { "letter": "", "example": "郵局 iû-kio̍k", "translation": "oost office", "audio": "audio/tailo/-k2.m4a" },
+  { "letter": "", "example": "鋩角 mê-kak", "translation": "tip", "audio": "audio/tailo/-k3.m4a" },
+  { "letter": "-p", "example": "回答 huê-tap", "translation": "to answer", "audio": "audio/tailo/-p1.m4a" },
+  { "letter": "", "example": "急 kip", "translation": "hurry", "audio": "audio/tailo/-p2.m4a" },
+  { "letter": "-t", "example": "發生 huat-sing", "translation": "to occur", "audio": "audio/tailo/-t1.m4a" },
+  { "letter": "", "example": "節目 tsiat-bo̍k", "translation": "program/show", "audio": "audio/tailo/-t2.m4a" },
+  { "letter": "", "example": "一直 it-ti̍t", "translation": "always", "audio": "audio/tailo/-t3.m4a" }
+]
