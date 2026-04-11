@@ -6,7 +6,7 @@ function VocabTable({ num }) {
     useEffect(() => {
         async function fetchData() {
               try {
-                  const response = await fetch(`json/vocab/lesson${num}.json`);
+                  const response = await fetch(`/json/vocab/lesson${num}.json`);
                   const data = await response.json();
                   setVocab(data);
               } catch (error) {
@@ -15,9 +15,10 @@ function VocabTable({ num }) {
           }
 
           fetchData();
-      }, [num]);
+    }, [num]);
 
     return (
+        <section className="main-part">
         <table className="table">
             <thead>
                 <tr>
@@ -41,6 +42,7 @@ function VocabTable({ num }) {
                 ))}
             </tbody>
         </table>
+        </section>
     )
 }
 

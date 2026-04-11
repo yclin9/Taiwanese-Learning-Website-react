@@ -8,7 +8,7 @@ import List from "./components/List";
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content";
 import VocabTable from "./components/VocabTable";
-import Quiz from "./components/Quiz";
+import Practice from "./components/Practice";
 import Tailo from "./components/Tailo"
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
                 {sectionType === "text" && <Content contentType={"lessons_text"} num={num} />}
                 {sectionType === "vocabulary" && <VocabTable num={num} />}
                 {sectionType === "grammar" && <Content contentType={"lessons_grammar"} num={num} />}
-                {sectionType === "quiz" && <Quiz num={num} />}
+                {sectionType === "practice" && <Practice num={num} />}
               </>
             )}
             

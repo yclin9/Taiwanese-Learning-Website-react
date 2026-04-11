@@ -20,7 +20,7 @@ function Sidebar({ currPage, num, setNum, setSection }) {
                         <li><button onClick={() => setSection("text")} style={{ cursor: "pointer"}}>Text</button></li>
                         <li><button onClick={() => setSection("vocabulary")} style={{ cursor: "pointer"}}>Vocabulary</button></li>
                         <li><button onClick={() => setSection("grammar")} style={{ cursor: "pointer"}}>Grammar</button></li>
-                        <li><button onClick={() => setSection("quiz")} style={{ cursor: "pointer"}}>Quiz</button></li>
+                        <li><button onClick={() => setSection("practice")} style={{ cursor: "pointer"}}>Practice</button></li>
                     </ul>
                 </aside>
             )}

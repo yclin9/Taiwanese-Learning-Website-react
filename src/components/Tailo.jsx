@@ -46,7 +46,9 @@ function Tailo({ num }) {
                 <TailoTable tailoType={"vowel/plosive_vowels"} />
             </section>
         );
-    } else {
+    } else if (num === 2) {
+        <></>
+    } else if (num === 3) {
         <></>
     }
 }

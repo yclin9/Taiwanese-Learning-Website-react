@@ -171,7 +171,7 @@ a {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.1em;
-  color: #2f6f6a;
+  color: var(--accent);
   margin-bottom: 16px;
 }
 
@@ -204,8 +204,8 @@ a {
   width: 85%;
   padding: 40px 32px;
   margin: 0 auto;
-  margin-right: 20%;
-  margin-left: 0%;
+  margin-right: 15%;
+  margin-left: -5%;
 }
 
 /* Content */
@@ -244,28 +244,28 @@ footer {
 
 /* Practice Section Container */
 .practice-box {
-  max-width: 900px;
+  margin-right: 50%;
   margin: 60px auto;
   padding: 30px;
-  background-color: #f9fafc;
+  background-color: #f0f0f0;
   border-radius: 16px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Title */
-.practice-box h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 28px;
-  color: #333;
+.practice-box h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--accent);
+  /* color: #333; */
 }
 
 /* Each Question Block */
 .question-block {
   margin-bottom: 25px;
   padding: 18px;
-  background-color: #ffffff;
+  /* background-color: var(--card-bg); */
+  background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
@@ -304,7 +304,7 @@ footer {
   margin-top: 20px;
   font-size: 16px;
   font-weight: bold;
-  background-color: #2f6f6a;
+  background-color: var(--accent);
   color: white;
   border: none;
   border-radius: 12px;
@@ -356,8 +356,7 @@ footer {
 
 /* Header */
 .table thead {
-  /* background: linear-gradient(135deg, #2f6f6a, #4f6cc9); */
-  background: #2f6f6a;
+  background: var(--accent);
   color: white;
 }
 
