@@ -56,10 +56,6 @@ function App() {
             {(num > 0 && page === "articles") && (
               <Content contentType={"articles"} num={num} />
             )}
-            
-            {/* {num > 0 && (
-              <aside className="right-side"/>
-            )} */}
           </main>
         </>
       )}
