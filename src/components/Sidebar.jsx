@@ -24,6 +24,10 @@ function Sidebar({ currPage, num, setNum, setSection }) {
                     </ul>
                 </aside>
             )}
+            
+            {currPage === "articles" && (
+                <aside className="sidebar"></aside>
+            )}
         </>
     );
 }

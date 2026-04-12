@@ -19,29 +19,31 @@ function VocabTable({ num }) {
 
     return (
         <section className="main-part">
-        <table className="table">
-            <thead>
-                <tr>
-                    <th>Taiwanese</th>
-                    <th>Tâi-lô</th>
-                    <th>English</th>
-                    <th>Audio</th>
-                </tr>
-            </thead>
+            <div className="content">
+                <table className="table">
+                    <thead>
+                        <tr>
+                            <th>Taiwanese</th>
+                            <th>Tâi-lô</th>
+                            <th>English</th>
+                            <th>Audio</th>
+                        </tr>
+                    </thead>
 
-            <tbody>
-                {vocabulary.map((item, index) => (
-                    <tr key={index}>
-                        <td>{item.taiwanese}</td>
-                        <td>{item.tailo}</td>
-                        <td>{item.english}</td>
-                        <td>
-                            <audio preload="none" src={`/public/audio/lesson${num}/${item.audio}`} controls></audio>
-                        </td>
-                    </tr>
-                ))}
-            </tbody>
-        </table>
+                    <tbody>
+                        {vocabulary.map((item, index) => (
+                            <tr key={index}>
+                                <td>{item.taiwanese}</td>
+                                <td>{item.tailo}</td>
+                                <td>{item.english}</td>
+                                <td>
+                                    <audio preload="none" src={`/public/audio/lesson${num}/${item.audio}`} controls></audio>
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
         </section>
     )
 }

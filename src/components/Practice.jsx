@@ -109,50 +109,50 @@ function Practice({ num }) {
 
     return (
         <section className="main-part">
-        <form onSubmit={handleSubmit}>
-            {Object.entries(grouped).map(([sectionTitle, questions]) => (
-                <div key={sectionTitle} className="practice-box">
-                    <h3>{sectionTitle}</h3>
+            <form onSubmit={handleSubmit}>
+                {Object.entries(grouped).map(([sectionTitle, questions]) => (
+                    <div key={sectionTitle} className="practice-box">
+                        <h3>{sectionTitle}</h3>
 
-                    {questions.map((q, i) => (
-                        <div
-                        key = {q.id}
-                        className="question-block"
-                        style={{
-                            border:
-                                result &&
-                                (answers[q.id] === q.correct ? "2px solid green" : "2px solid red")
-                        }}>
-                            <p>
-                                <strong>{i + 1}. </strong>
-                                {q.type === "english-tailo" && q.question.english}
-                                {q.type === "tailo-english" && q.question.tailo}
-                            </p>
+                        {questions.map((q, i) => (
+                            <div
+                            key = {q.id}
+                            className="question-block"
+                            style={{
+                                border:
+                                    result &&
+                                    (answers[q.id] === q.correct ? "2px solid green" : "2px solid red")
+                            }}>
+                                <p>
+                                    <strong>{i + 1}. </strong>
+                                    {q.type === "english-tailo" && q.question.english}
+                                    {q.type === "tailo-english" && q.question.tailo}
+                                </p>
 
-                            {q.type === "audio-english" && (
-                                <audio controls src = {`audio/${q.question.audio}`}/>
-                            )}
+                                {q.type === "audio-english" && (
+                                    <audio controls src = {`audio/${q.question.audio}`}/>
+                                )}
 
-                            {q.choices.map(choice => (
-                                <label key={choice} style={{ display: "block" }}>
-                                    <input
-                                    type="radio"
-                                    name={`q${q.id}`}
-                                    value={choice}
-                                    onChange={() => handleChange(q.id, choice)}
-                                    />
-                                    {choice}
-                                </label>
-                            ))}
-                        </div>
-                    ))}
-                </div>
-            ))}
+                                {q.choices.map(choice => (
+                                    <label key={choice} style={{ display: "block" }}>
+                                        <input
+                                        type="radio"
+                                        name={`q${q.id}`}
+                                        value={choice}
+                                        onChange={() => handleChange(q.id, choice)}
+                                        />
+                                        {choice}
+                                    </label>
+                                ))}
+                            </div>
+                        ))}
+                    </div>
+                ))}
 
-            <button type="submit">Submit</button>
+                <button type="submit" className="submit-btn">Submit</button>
 
-            {result && <p>Submit</p>}
-        </form>
+                {result && <p>{result}</p>}
+            </form>
         </section>
     );
 }

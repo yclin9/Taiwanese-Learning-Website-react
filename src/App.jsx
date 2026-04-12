@@ -36,7 +36,7 @@ function App() {
           )}
 
           <main className="layout">
-            {(num > 0 && page !== "articles") && (
+            {num > 0 && (
               <Sidebar currPage={page} num={num} setNum={setNum} setSection={setSection} />
             )}
             
@@ -56,6 +56,10 @@ function App() {
             {(num > 0 && page === "articles") && (
               <Content contentType={"articles"} num={num} />
             )}
+            
+            {/* {num > 0 && (
+              <aside className="right-side"/>
+            )} */}
           </main>
         </>
       )}

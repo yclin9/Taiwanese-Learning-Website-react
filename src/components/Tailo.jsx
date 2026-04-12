@@ -4,13 +4,14 @@ function Tailo({ num }) {
     if (num === 1) {
         return (
         <section className="main-part">
+            <div className="content">
                 <h2>1. Simple Vowels</h2>
                 <p>
                 Taiwanese contains six simple vowels, all other vowels are
                 built by these six basic elements.
                 </p>
 
-                <TailoTable tailoType={"vowel/simple_vowels"} />
+                <TailoTable tailoType={"simple_vowels"} />
 
                 <h2>2. Compound Vowels</h2>
                 <p>
@@ -18,7 +19,7 @@ function Tailo({ num }) {
                 them to build more complicated sounds.
                 </p>
 
-                <TailoTable tailoType={"vowel/compound_vowels"} />
+                <TailoTable tailoType={"compound_vowels"} />
 
                 <h2>3. Nasal Vowels</h2>
                 <p>
@@ -27,7 +28,7 @@ function Tailo({ num }) {
                 the previous two parts.
                 </p>
 
-                <TailoTable tailoType={"vowel/nasal_vowels"} />
+                <TailoTable tailoType={"nasal_vowels"} />
 
                 <p>
                 Among the four nasal vowels, three of the sounds exist in
@@ -43,8 +44,9 @@ function Tailo({ num }) {
                 normal one.
                 </p>
 
-                <TailoTable tailoType={"vowel/plosive_vowels"} />
-            </section>
+                <TailoTable tailoType={"plosive_vowels"} />
+            </div>
+        </section>
         );
     } else if (num === 2) {
         <></>
