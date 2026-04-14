@@ -1,0 +1,15 @@
+[
+  { "letter": "p", "example": "白色 pe̍h-sik", "translation": "white", "audio": "audio/tailo/p.m4a" },
+  { "letter": "ph", "example": "拍 phah", "translation": "to play, to hit", "audio": "audio/tailo/ph.m4a" },
+  { "letter": "m", "example": "毛 mn̂g", "translation": "hair/fur", "audio": "audio/tailo/m.m4a" },
+  { "letter": "b", "example": "肉 bah", "translation": "meat/flesh", "audio": "audio/tailo/b.m4a" },
+  { "letter": "t", "example": "長 tn̂g", "translation": "long", "audio": "audio/tailo/t.m4a" },
+  { "letter": "th", "example": "頭 thâu", "translation": "head, first", "audio": "audio/tailo/th.m4a" },
+  { "letter": "n", "example": "藍色 nâ-sik", "translation": "blue", "audio": "audio/tailo/n.m4a" },
+  { "letter": "l", "example": "老 lāu", "translation": "old/elder", "audio": "audio/tailo/l.m4a" },
+  { "letter": "k", "example": "叫 kiò", "translation": "to call", "audio": "audio/tailo/k.m4a" },
+  { "letter": "kh", "example": "去 khì", "translation": "to go", "audio": "audio/tailo/kh.m4a" },
+  { "letter": "ng", "example": "嫦娥 siông-ngôo", "translation": "Chang'e (goddess of the Moon)", "audio": "audio/tailo/ng.m4a" },
+  { "letter": "g", "example": "𠢕 gâu", "translation": "amazing", "audio": "audio/tailo/g.m4a" },
+  { "letter": "h", "example": "歡喜 huann-hí", "translation": "happy", "audio": "audio/tailo/h.m4a" }
+]

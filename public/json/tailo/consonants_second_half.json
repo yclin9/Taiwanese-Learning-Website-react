@@ -1,0 +1,10 @@
+[
+  { "letter": "ts", "example": "水 tsuí", "translation": "water", "audio": "audio/tailo/ts.m4a" },
+  { "letter": "ts(i)", "example": "尖 tsiam", "translation": "sharp", "audio": "audio/tailo/tsi.m4a" },
+  { "letter": "tsh", "example": "出 tshut", "translation": "to get out", "audio": "audio/tailo/tsh.m4a" },
+  { "letter": "tsh(i)", "example": "手 tshiú", "translation": "hand", "audio": "audio/tailo/tshi.m4a" },
+  { "letter": "s", "example": "衫 sann", "translation": "clothes", "audio": "audio/tailo/s.m4a" },
+  { "letter": "s(i)", "example": "寫 siá", "translation": "to write", "audio": "audio/tailo/si.m4a" },
+  { "letter": "j", "example": "熱 jua̍h", "translation": "hot", "audio": "audio/tailo/j.m4a" },
+  { "letter": "j(i)", "example": "日頭 ji̍t-thâu", "translation": "sun", "audio": "audio/tailo/ji.m4a" }
+]

@@ -2,7 +2,7 @@ function Header({ setPage, setNum }) {
     return (
         <header className="navbar">
             <div className="logo">
-                <img src="../assets/logo.png" width="200" alt="logo"
+                <img src="src\assets\logo.png" width="200" alt="logo"
                 onClick={() => setPage("home")} style={{ cursor: "pointer"}}/>
             </div>
             <nav>
